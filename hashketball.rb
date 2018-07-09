@@ -241,7 +241,7 @@ def player_numbers team_name
 end
 
 def player_stats player_name
-statistics = {}  
+  statistics = {}  
   game_hash.each do |teams,team_data|
     team_data.each do |attribute,info|
       if attribute == :players 
